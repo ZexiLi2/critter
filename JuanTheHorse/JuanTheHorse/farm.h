@@ -7,8 +7,8 @@ using namespace std;
 class Farm
 {
 public:
-	Farm(int space = 1);
-	void Add(const Critter& aCritter);
+	Farm(int space = 5);
+	void Add();
 	void RollCall() const;
 
 private: vector<Critter> m_Critters;
